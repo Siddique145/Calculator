@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main">
+        <h1 class="h">Calculator</h1>
+        <div class="clock">
+            <span id="hours"></span>:
+            <span id="minutes"></span>:
+            <span id="seconds"></span>
+        </div>
+        <div class="two">
+            
+            
+            <div class="box1">
+                <input type="text" placeholder="Enter 1st" id="num1">
+                <input type="text" placeholder="Enter 2nd" id="num2">
+                <div class="box3">
+                    
+                        <h1  id="result">-</h1>
+                    </div>
+                </div>
+                
+                
+            </div>
+            <div class="box2">
+                <button class="btn" onclick="calculator('+')">+</button>
+                <button class="btn" onclick="calculator('-')">-</button>
+                <button class="btn" onclick="calculator('*')">x</button>
+                <button class="btn" onclick="calculator('/')">/</button>
+            </div>
+        </div>
+        <script defer src="app.js"></script>
+</body>
+</html>
